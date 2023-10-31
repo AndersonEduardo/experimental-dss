@@ -1,0 +1,10 @@
+name: proj-dss-env
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.5
+  - anaconda
+  - poppler
+  - pip
+  - pip:
+    - -r file:requirements.txt
